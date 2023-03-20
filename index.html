@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeto Javascript</title>
+        <meta charset="utf-8">
+        <link href="./style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header></header>
+        <main id="mainel">
+            <h1>This is an excuse generator</h1>
+            <h2>Tell me what kind of appointment you have(Family, office, children, college, party, funny, unbelievable, developers, gaming.) and i'll help you get out of it.</h2>
+            <form class="excuseForm">
+                <div class="input-container">
+                    <input type="text" class="excuseInput" id="quantity-field" name="quantity" placeholder="How many excuses do you want.(Optional)">
+                    <p class="warning hide" id="quantity-warning" >Not defining a quantity will lead to 1 excuse.</p>
+                </div>
+                <div class="input-container">
+                    <input type="text" class="excuseInput" id="category-field" name="category" placeholder="What kind of event do you wanna skip.(Optional)">
+                    <p class="warning hide" id="category-warning" >Not defining a category will will generate a random category excuse.</p>
+                </div>
+                <button class="search" type="submit">Searchfor an (not so) awesome excuse!</button>  
+            </form>
+
+        </main>
+        <footer></footer>
+        <script src="./script.js"></script>
+    </body>
+</html>

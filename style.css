@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-color: #38d0e4;
+    border-style: solid;
+}
+
+.excuseInput{
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+
+}
+
+button{
+    background-color:#38d0e4;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    height: 50px;
+    width: 300px;
+    margin-top: 15px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.responses {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: contents;
+}
+
+.warning {
+    font-size: 12px;    
+    margin: 0;
+    color: red;
+    text-align: left;
+}
+
+#quantity-warning {
+    font-size: 12px;    
+    margin: 0;
+    color: red;
+    text-align: left;
+}
